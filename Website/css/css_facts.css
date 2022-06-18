@@ -1,0 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: linear-gradient(rgb(223, 183, 183), rgb(128, 57, 57));
+}

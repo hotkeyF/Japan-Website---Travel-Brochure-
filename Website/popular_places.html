@@ -1,0 +1,61 @@
+<html>
+<head>
+
+    <title>Popular Places</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+#itemsDiv{
+display: flex;
+flex-direction: row;
+align-content: center;
+
+}
+.row{
+display: flex;
+flex-direction: column;
+}
+.texts{
+    margin-top: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px double black;
+    border-radius: 4px;
+}
+img{
+    border-radius: 13px;
+    border-color: brown;
+}
+
+    </style>
+</head>
+<body style="background-image: linear-gradient(rgb(194, 173, 173), rgb(148, 27, 27));">
+   
+    <h1 align="center" style="font-size: 36pt; margin-top: 10px; ">Popular places in Japan</h1>
+    <br>
+    <hr>
+    <div id="itemsDiv">
+        <table align="center">
+            <tr class="row">
+                <td><img src="SLIKE/shibuya.jpg" alt="shibuya"></td>
+                <td bgcolor="#f4f4f4" class="texts">Shibuya City - Main Attraction of Tokyo City</td>
+            </tr>
+            <tr class="row">
+                <td><img src="SLIKE/kyoto1.jpg" alt="kyoto"></td>
+                <td bgcolor="#f4f4f4" class="texts">Kyoto City - Oldest city and ex Capital of Japan</td>
+            </tr>
+            <tr class="row">
+                <td><img src="SLIKE/kawa.jpg" alt="kawa"></td>
+                <td bgcolor="#f4f4f4" class="texts">Kawa - main river of Tokyo City</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

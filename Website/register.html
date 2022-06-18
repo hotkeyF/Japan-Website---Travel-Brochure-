@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/css_registration.css">
+    <title>Registration</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient(rgb(231, 203, 203), white);">
+    <div id="registrationDiv">
+        <h1 style="font-size: 24px;" align="center">Registration Panel</h1>
+        <form method="post" enctype="text/plain" align="center">
+            <p>Name: </p>
+            <input class="params" type="text" name="name" size="15">
+            <br>
+            
+            <p>Surname: </p>
+            <input class="params" type="text" name="surname" size="15">
+            <br> 
+            
+            <p>Date of birth: </p>
+            <input class="params" type="date" name="date">
+            <br>
+
+            <p>Username: </p>
+            <input class="params" type="text" name="date" size="20">
+            <br>
+           
+            <p>Password: </p>
+            <input class="params" type="password" name="password">
+            <br>
+
+            <p>Description: </p>
+            <textarea class="params" name="opis" rows="3" cols="30"></textarea>
+            <br>
+
+            <p>Have you visited Japan previously? </p>
+            <input type="radio" name="visitedJapan" value="yes" checked> Yes
+            <input type="radio" name="visitedJapan" value="no" checked> No
+            <br>
+            
+            <p>How many days do you want to stay?</p>
+            <select name="days">
+                <option value="lessweek">Less than a week</option>
+                <option value="week">More than a week</option>
+                <option value="plusweek">More than a month</option>
+            </select>
+            <br>
+            <hr>
+            <button type="submit">Proceed</button>
+            <button onclick="resetButtonProcessing()">Reset Entries</button>
+            <script src="script.js"></script>
+        </form>
+    </div>
+</body>
+</html>

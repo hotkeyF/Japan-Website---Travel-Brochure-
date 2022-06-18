@@ -1,0 +1,23 @@
+#registrationDiv{
+    align-items: center;
+    background-color: rgb(175, 67, 67);
+    border-radius: 20px;
+    border-color: white;
+    border-style: groove;
+    padding: 20px;
+    width: 40%;
+    display: flexbox;
+    justify-content: center;
+    margin-left: 25%;
+
+}
+button, input, option, select{
+    border-radius: 10px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+p{
+    color: white;
+    
+}
